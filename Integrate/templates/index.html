@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Listening, Recording, and Location Sharing</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Listening for Keyword "help"</h1>
+    <p id="statusText">Waiting for the keyword...</p>
+
+    <!-- Panic Button to start listening -->
+    <button id="panicButton" onclick="startListening()">Panic Button</button>
+
+    <div id="output">
+        <h2>Recorded Files:</h2>
+        <p id="audioOutput"></p>
+        <p id="videoOutput"></p>
+        <h2>Location:</h2>
+        <p id="locationStatus"></p>
+        <p id="locationLink"></p>
+    </div>
+
+    <script>
+        // This function will be triggered when the Panic Button is clicked
+        function startListening() {
+            // Change the text to "Listening for Keyword 'help'"
+            document.getElementById("statusText").innerText = "Listening for Keyword 'help'";
+
+            fetch("/start_listening", { method: "POST" })
+                .then(response => response.json())
+                .then(data => {
+                    // Once 'help' is detected, update the status text
+                    document.getElementById("statusText").innerText = "The Keyword Detected... Initiating phase 2";
+
+                    // Show the audio and video download links
+                    document.getElementById("audioOutput").innerHTML =
+                        `<a href="/static/${data.audio}" download>${data.audio}</a>`;
+                    document.getElementById("videoOutput").innerHTML =
+                        `<a href="/static/${data.video}" download>${data.video}</a>`;
+
+                    // Get the user's location
+                    if ("geolocation" in navigator) {
+                        navigator.geolocation.getCurrentPosition((position) => {
+                            const latitude = position.coords.latitude;
+                            const longitude = position.coords.longitude;
+
+                            fetch("/share_location", {
+                                method: "POST",
+                                headers: { "Content-Type": "application/json" },
+                                body: JSON.stringify({ latitude: latitude, longitude: longitude })
+                            })
+                            .then(response => response.json())
+                            .then(data => {
+                                document.getElementById("locationStatus").innerText = data.status;
+                                document.getElementById("locationLink").innerHTML =
+                                    `<a href="${data.location_link}" target="_blank">View Location on Map</a>`;
+                            })
+                            .catch(error => console.error("Error sharing location:", error));
+                        });
+                    } else {
+                        document.getElementById("locationStatus").innerText = "Geolocation is not supported by your browser.";
+                    }
+                })
+                .catch(error => console.error("Error:", error));
+        }
+    </script>
+</body>
+</html>
