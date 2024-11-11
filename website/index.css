@@ -1,0 +1,295 @@
+.desktop1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.desktop1-desktop1 {
+  gap: 10px;
+  width: 100%;
+  height: 1446px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(254, 236, 236, 1);
+}
+.desktop1-lowanglewomannature1 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 691px;
+  position: absolute;
+}
+.desktop1-text10 {
+  top: 232px;
+  left: 210px;
+  color: rgba(61, 88, 116, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-rectangle4 {
+  top: 480px;
+  left: 217px;
+  width: 214px;
+  height: 92px;
+  position: absolute;
+  border-radius: 12px;
+}
+.desktop1-text11 {
+  top: 481px;
+  left: 219px;
+  width: 214px;
+  height: 92px;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 0.8 ;
+  font-stretch: normal;
+  text-decoration: none;
+  background-color: #F39B54; /* Set the background color to orange */
+  color:  #2E1D19; /* Set the text color to white for contrast */
+  padding: 10px 10px; /* Adjust padding for button size */
+  border: none; /* Remove the default border */
+  border-radius: 10px; /* Optional: Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: all 0.3s ease;
+}
+.desktop1-text12 {
+  top: 537px;
+  left: 296px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text13 {
+  top: 744px;
+  left: 609px;
+  color: rgba(61, 88, 116, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text14 {
+  top: 744px;
+  left: 609px;
+  color: rgba(61, 88, 116, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text15 {
+  top: 875px;
+  left: 188px;
+  color: rgba(0, 0, 0, 1);
+  width: 1063px;
+  height: auto;
+  position: absolute;
+  font-size: 19px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text16 {
+  top: 875px;
+  left: 188px;
+  color: rgba(0, 0, 0, 1);
+  width: 1063px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-rectangle3 {
+  top: 1151px;
+  left: 0px;
+  width: 1444px;
+  height: 295px;
+  position: absolute;
+}
+.desktop1-rectangle5 {
+  top: 1151px;
+  left: 0px;
+  width: 1444px;
+  height: 295px;
+  position: absolute;
+}
+.desktop1-text17 {
+  top: 1170px;
+  left: 648px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text18 {
+  top: 1170px;
+  left: 648px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-group1 {
+  top: 29px;
+  left: 188px;
+  width: 1065px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop1-text19 {
+  color: rgba(61, 88, 116, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text20 {
+  top: 10px;
+  left: 655px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text21 {
+  top: 10px;
+  left: 804px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text22 {
+  top: 10px;
+  left: 979px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text23 {
+  top: 329px;
+  left: 217px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left; 
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-group1 a {
+  color: rgba(0, 0, 0, 1); /* Default text color */
+  text-decoration: none; /* Remove underline by default */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.desktop1-group1 a:hover {
+  color: rgba(61, 88, 116, 1); /* Change color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+.desktop1-text11:hover {
+  background-color: #F39B54; /* Darken the background color on hover */
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+.min {
+  font-size: 24px; /* Set a larger font size for this part */ /* Optional: make the larger text bold */
+}
+
