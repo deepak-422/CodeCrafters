@@ -1,5 +1,6 @@
-﻿# S.A.K.H.I. (Safety Awareness Knowledge and Her Independence) - Women Safety Website
-Welcome to S.A.K.H.I., a women’s safety webapp designed to provide women with a reliable tool that helps them stay connected to their loved ones, friends, or emergency contacts when they need it the most. With the touch of a button, Sakhi allows users to share real-time location, audio, and video with a selected contact in times of distress, ensuring that help is just a tap away.
+﻿# S.A.K.H.I. (Safety Awareness Knowledge Help and Independence) - Women Safety Project
+Welcome to S.A.K.H.I., a women’s safety webapp designed to provide women with a reliable tool that helps them stay connected to their loved ones, friends, or emergency contacts when they need it most. With the click of a button, Sakhi allows users to share real-time location, audio, and video with a selected contact in times of distress, ensuring that help is just a tap away
+
 
 # Technology Used
 - React
@@ -26,9 +27,6 @@ Sakhi, Safety Awareness Knowledge Help and Independence, means "friend" and that
 - Real-Time Location Sharing: Instantly share your location with trusted contacts, providing peace of mind for both you and your loved ones.
 - Audio & Video Sharing: Record and send live audio and video to your selected contacts in real-time, allowing them to understand the situation and respond swiftly.
 - Emergency Alerts: In case of an emergency, a quick tap activates a distress alert, notifying your contacts with your location and live updates.
-
-Future of SAKHI:
-In future, we are planning to  add features like gender recognition and sentiment analysis using machine learning. We care about you and your loved ones, and together we can create a create that is most reliable and addresses all the problems. Therefore, we care for your suggestion and reviews for the betterment of our app.
 
 # Contributions:
 
