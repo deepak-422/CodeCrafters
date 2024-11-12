@@ -14,9 +14,11 @@ Sakhi is a women’s safety app designed with your security and peace of mind in
 Our mission is to provide women with a reliable tool that helps them stay connected to their loved ones, friends, or emergency contacts when they need it the most. With the touch of a button, Sakhi allows users to share real-time location, audio, and video with a selected contact in times of distress, ensuring that help is just a tap away.
 
 **Our Vision**
+
 We believe that every woman has the right to live, move, and thrive without fear. Sakhi is designed to give women the confidence and tools to take control of their safety, offering peace of mind whether they’re traveling alone, walking home late, or simply navigating the complexities of daily life.
 
 **Why Sakhi?**
+
 Sakhi, Safety Awareness Knowledge Help and Independence, means "friend" and that’s exactly what we aim to be  your trusted companion in moments of need. We understand that women face unique challenges when it comes to safety, and we’ve created an app that is intuitive, easy to use, and most importantly, reliable.
 
 **Our Key Features:**
@@ -28,12 +30,13 @@ Sakhi, Safety Awareness Knowledge Help and Independence, means "friend" and that
 Future of SAKHI:
 In future, we are planning to  add features like gender recognition and sentiment analysis using machine learning. We care about you and your loved ones, and together we can create a create that is most reliable and addresses all the problems. Therefore, we care for your suggestion and reviews for the betterment of our app.
 
-#Contributions:
-Prasang:
-Anmol:
-Prerit:
-Varun:
-Deepak:
+# Contributions:
+
+- Prasang:
+- Anmol:
+- Prerit:
+- Varun:
+- Deepak:
 
 
 
